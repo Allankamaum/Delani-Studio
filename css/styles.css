@@ -1,12 +1,23 @@
-body{
+.one{
 background: url(../assets/backgrounds/h_img.jpg);
-.
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
 }
 .one{
+
+  background: url(../assets/backgrounds/h_img.jpg);
   text-align: center;
-  margin-top: 18%;
   color: white;
+  padding: 195px;
 }
 .two{
-  margin-top: 20%;
+  text-align: center;
+}
+.icon{
+  margin-top: 16%;
+}
+.text{
+  margin-top: 10%;
+  margin-bottom: 0%;
 }
