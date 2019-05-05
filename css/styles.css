@@ -61,5 +61,18 @@
   width: 100%;
 }
 
+br {
+  display: block;
+  margin: 0px 0;
+}
+
+.six {
+  text-align: center;
+  background: url(../assets/backgrounds/c_image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
 
 }
