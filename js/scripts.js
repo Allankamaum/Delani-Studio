@@ -13,13 +13,4 @@ $(document).ready(function() {
      $("#img3").slideToggle();
      $("#par3").toggle();
    });
-
-
-
-});
-
-
-
-$(document).ready(function(){
-  $('[data-toggle="tooltip"]').tooltip();
 });

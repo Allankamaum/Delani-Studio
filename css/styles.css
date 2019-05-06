@@ -118,6 +118,9 @@ text-align: center;
   justify-content: space-around;
   margin-right: 2%;
 }
+::title{
+  color: white;
+}
 
 @media only screen and (min-width: 1490px) {
   .five {
