@@ -114,9 +114,9 @@ br {
   font-size: 14px;
 }
 .seven{
-
-  padding-left: 45;
-  margin :8px 10px;
+text-align: center;
+  justify-content: space-around;
+  margin-right: 2%;
 }
 
 @media only screen and (min-width: 1490px) {
