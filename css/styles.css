@@ -33,18 +33,31 @@
 
 .four {
   text-align: center;
-  padding-bottom: 2%;
-  padding: 5px;
+  padding-bottom: 0%;
+  padding: 2px;
 }
 
-.row {
-  flex: auto;
-  display: flex;
-  flex-direction: row;
+.par1{
+  display: none;
 }
+#par1{
+  display: none;
+}
+#par2{
+  display: none;
+}
+
+#par3{
+  display: none;
+}
+/* .row{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+} */
 
 .col-lg-4 {
-  flex: auto;
   text-align: center;
 }
 
@@ -63,7 +76,7 @@
 
 br {
   display: block;
-  margin: 0px 0;
+  margin: 0px 0 line-height:100px;
 }
 
 .six {
@@ -74,5 +87,40 @@ br {
   color: white;
 }
 
+.six-inner {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  padding: 160px;
+}
 
+.six-inner input {
+  width: 35%;
+  background-color: transparent;
+  color: #fff;
+}
+
+.six-inner textarea {
+  margin: 2% 11%;
+  margin-right: auto;
+  width: 82%;
+  background-color: transparent;
+  border-color: white;
+  color: #fff;
+}
+
+::placeholder {
+  color: white;
+  font-size: 14px;
+}
+.seven{
+
+  padding-left: 45;
+  margin :8px 10px;
+}
+
+@media only screen and (min-width: 1490px) {
+  .five {
+    padding: 0 10%;
+  }
 }
