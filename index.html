@@ -7,7 +7,6 @@
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/mdb.css">
   <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="js/scripts.js">
 </head>
 
 <body>
@@ -57,40 +56,45 @@
 
       <div class="col-lg-4">
 
-        <div id="img1">
-          <img class="img" src="assets/services_icons/design_icon.png">
-        </div>
-
-        <div id="par1">
+        <div id="design">
+          <img class="img1" src="assets/services_icons/design_icon.png">
           <p><strong>DESIGN</strong></p>
-          <p>Our design practice offers a full range of services including brand strategy, interaction and
-            visual design and user experience testing.Throughout your project, our designers create and implement visual
-            design</p>
-        </div>
 
+          <div id="par1">
+            <p>Our design practice offers a full range of services including brand strategy, interaction and
+              visual design and user experience testing.Throughout your project, our designers create and implement visual
+              design</p>
+          </div>
+        </div>
       </div>
 
       <div class="col-lg-4">
-        <div id="">
-          <img class="img" src="assets/services_icons/dev_icon.png" alt="">
-        </div>
 
-        <div id="par2">
+        <div id="development">
+          <img class="img2" src="assets/services_icons/dev_icon.png" alt="">
           <p>DEVELOPMENT</p>
-          <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.They collaborate
-            with your team to write and improve code on a daily basis, using proven practices such as test-driven
-            development and pair
-            programming.</p>
-        </div>
 
+          <div id="par2">
+
+            <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.They collaborate
+              with your team to write and improve code on a daily basis, using proven practices such as test-driven
+              development and pair
+              programming.</p>
+          </div>
+        </div>
       </div>
 
       <div class="col-lg-4">
-        <img class="img" src="assets/services_icons/product_icon.png" alt="">
-        <p class="par">PRODUCT MANAGEMENT</p>
-        <p class="par">Planning and develop[ment is iterative. Because we are constantly coding and testing that the
-          products we build are always ready to go live.This iterative process allows for changes as a business
-          requirements evolve.</p>
+        <div class="product">
+          <img id="img3" src="assets/services_icons/product_icon.png" alt="">
+          <p><strong>PRODUCT MANAGEMENT</strong></p>
+          <div id="par3">
+            <p class="par">Planning and develop[ment is iterative. Because we are constantly coding and testing that the
+              products we build are always ready to go live.This iterative process allows for changes as a business
+              requirements evolve.</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -98,51 +102,78 @@
   <h1 class="text">PORTFOLIO</h1>
   <section class=" five d-flex flex-wrap  justify-content-around ">
     <div class="work1">
-      <img src="assets/portfolio/work1.jpg" alt="">
+      <img src="assets/portfolio/work1.jpg" data-toggle="tooltip" title="JIm carrey!">
     </div>
     <div class="work2">
-      <img src="assets/portfolio/work2.jpg" alt="">
+      <img src="assets/portfolio/work2.jpg" data-toggle="tooltip" title="Diamond">
     </div>
     <div class="work3">
-      <img src="assets/portfolio/work3.jpg" alt="">
+      <img src="assets/portfolio/work3.jpg" data-toggle="tooltip"  title="ontario">
     </div>
     <div class="work4">
-      <img src="assets/portfolio/work4.jpg" alt="">
+      <img src="assets/portfolio/work4.jpg"data-toggle="tooltip"  title="blank">
     </div>
     <div class="work5">
-      <img src="assets/portfolio/work5.jpg" alt="">
+      <img src="assets/portfolio/work5.jpg" data-toggle="tooltip" title="Have a good day">
     </div>
     <div class="work6">
-      <img src="assets/portfolio/work6.jpg" alt="">
+      <img src="assets/portfolio/work6.jpg" data-toggle="tooltip"  title="buttons">
     </div>
     <div class="work7">
-      <img src="assets/portfolio/work7.jpg" alt="">
+      <img src="assets/portfolio/work7.jpg"  data-toggle="tooltip"  title="Burned">
     </div>
     <div class="work8">
-      <img src="assets/portfolio/work8.jpg" alt="">
+      <img src="assets/portfolio/work8.jpg" data-toggle="tooltip"  title="Giraffe">
     </div>
 
   </section>
-
   <br>
-
-
-
   <section class="six">
     <h1>CONTACT US</h1>
     <!-- <div class="container"> -->
-      <div class="six-inner">
-        <input type="text" name="Name" value="" placeholder="Name..." color:white;>
-        <input type="text" name="Email" value="" placeholder="Email...">
-        <textarea name="name" rows="8" cols="80"></textarea>
-      </div>
+    <div class="six-inner d-flex flex-wrap  justify-content-around">
+      <input type="text" name="Name" value="" placeholder="Name...">
+      <input type="text" name="Email" value="" placeholder="Email...">
+      <textarea id="placeholder" name="name" rows="8" cols="80" placeholder="Your message here"></textarea>
+    </div>
     </div>
   </section>
+  <br>
+  <section class="seven">
+    <a href="#">
+      <img src="assets/social_icons/twitter.png" alt="">
+    </a>
+    <a href="#">
+      <img src="assets/social_icons/dribble.png" alt="">
+    </a>
+    <a href="#">
+      <img src="assets/social_icons/facebook.png" alt="">
+    </a>
+    <a href="#">
+      <img src="assets/social_icons/g_plus.png" alt="">
+    </a>
+    <a href="#">
+      <img src="assets/social_icons/skype.png" alt="">
+    </a>
+    <a href="#">
+      <img src="assets/social_icons/stumble_upon.png" alt="">
+    </a>
+    <a href="#">
+      <img src="assets/social_icons/behance.png" alt="">
+    </a>
+    <a href="#">
+      <img src="assets/social_icons/pinterest.png" alt="">
+    </a>
 
+  </section>
+  <script src="js/jquery-3.4.1.js"></script>
+  <script src="js/scripts.js"></script>
 
-
-
-
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
+
+
 
 </html>
